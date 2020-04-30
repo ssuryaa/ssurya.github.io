@@ -1,6 +1,41 @@
-<body style="font-family: Palatino">
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Palatino;
+}
 
-    <h3 align="right"> <a href="https://ssuryaa.github.io/"> back to home</a> </h3>
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("header.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Text to Speech</h1>
+  </div>
+</div>
+
     <h2> Contents </h2>
     <h3>
         <ul style = "list-style-type:square;">
@@ -19,7 +54,7 @@
             <li> WaveGlow: A Flow Based Generative Network for Speech Synthesis, 2018. <a href="https://arxiv.org/pdf/1811.00002.pdf" target="_blank"> [link]</a> </li>
         </ol>
     </a>
-    
+
     <a id="notes_link">
         <h3>Notes</h3>
         <ol>
@@ -37,6 +72,6 @@
         </ol>
     </a>
 
-    
 
 </body>
+</html>
