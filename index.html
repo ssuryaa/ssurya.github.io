@@ -3,20 +3,44 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
 
-<body>
-    <body style="font-family: Palatio"></body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Palatino;
+}
 
-    <!--
-    <IMG ALIGN=RIGHT SRC="dp.JPG"> <br> 
-    -->
-    <h2>Bio</h2>
-    I'm Surya Narayanan
-    <html lang="ta">
-        (சூரிய நாராயணன்)
-    </html>
-    , 5th year Ph.D. candidate at the University of Utah, advised by Prof. Rajeev Balasubramonian. My research interests include computer architecture, neuromorphic architectures, application specific architecture design, and neural networks. My research primarily lies at the intersection of computer architecture and machine learning.
-    <p> Email: surya@cs.utah.edu </p>
-    
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("index_header.png");
+  height: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Surya Narayanan</h1>
+  </div>
+</div>
+
    
 <!--
     <h2>Publications</h2>
@@ -29,30 +53,21 @@
     </ul>
 -->
 
-    <h2>Reading list</h2>
-    <ul style = "list-style-type: circle;">
-        <li><a href="arch.html">Architecture conference papers</a></li>
-        <li><a href="nn.html">ML conference papers</a></li>
-        <li><a href="potpourri.html">Potpourri</a></li>
-        <li><a href="https://researchpapersummaries.blogspot.com/" target="_blank">Paper summaries</a></li>
-        <li><a href="books.html">Book list</a></li>
-    </ul>
+<h2>Reading list</h2>
+<ul style = "list-style-type: circle;">
+    <li><a href="arch.html">Architecture conference papers</a></li>
+    <li><a href="nn.html">ML conference papers</a></li>
+    <li><a href="potpourri.html">Potpourri</a></li>
+    <li><a href="https://researchpapersummaries.blogspot.com/" target="_blank">Paper summaries</a></li>
+    <li><a href="books.html">Book list</a></li>
+</ul>
 
-    <h2>Notes/Materials</h2>
-    <ul style = "list-style-type:disc;">
-        <li><a href="tts.html">Text-to-Speech</a></li>
-    </ul>
+<h2>Notes/Materials</h2>
+<ul style = "list-style-type:disc;">
+    <li><a href="tts.html">Text-to-Speech</a></li>
+</ul>
 
 </body>
 
-<!--
-<footer>
-    CV
-    <a href="https://twitter.com/surya__kamal" target="_blank">Twitter</a>
-    <a href="https://github.com/ssuryaa/" target="_blank">GitHub</a>
-</footer>
+</html>
 
-<footer>
-    <a href="https://elavarasinatarajan.github.io/" target="_blank">The person keeping me sane</a>
-</footer>
--->
