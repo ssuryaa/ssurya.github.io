@@ -6,7 +6,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Palatino;
+  font-family: Candara;
 }
 
 .hero-image {
@@ -26,6 +26,69 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor:auto;
+  border-radius: 8px;
+  font-family: Candara;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border:none;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  
+  color: white;
+}
+
+.button2 {
+  background-color: #4CAF50; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  cursor: pointer;;
+}
+
+.button2:hover {
+  background-color:white;
+  color: black;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border:none;
+}
+
+.button3:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button4 {
+  background-color: #008CBA; 
+  color: black; 
+  border: 2px solid #008CBA;
+  cursor: pointer;
+}
+
+.button4:hover {
+  background-color: white;
+  color: black;
+}
+
 </style>
 </head>
 <body>
@@ -36,42 +99,20 @@ body, html {
   </div>
 </div>
 
-    <h2> Contents </h2>
-    <h3>
-        <ul style = "list-style-type:square;">
-            <li> <a href="#papers_link">Related Papers</a> </li>
-            <li> <a href="#notes_link">Notes</a> </li>
-            <li> <a href="#links_link">Related Link</a> </li>
-        </ul>
-    </h3>
-
-    <a id="papers_link">
-        <h3>Relevent Papers </h3>
-        <ol>
-            <li>Fast Speech: Fast, Robust and Controllable Text to Speech, 2019. <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/05/1905.09263.pdf" target="_blank"> [link]</a> </li>
-            <li> Tacotron: Towards End-to-End Speech Synthesis, 2017. <a href="https://arxiv.org/pdf/1703.10135.pdf" target="_blank"> [link]</a> </li>
-            <li> Natural TTS Synthesis by Conditioning Wavenet on Mel Spectrogram Predictions, 2018. <a href="https://arxiv.org/pdf/1712.05884.pdf" target="_blank"> [link]</a> </li>
-            <li> WaveGlow: A Flow Based Generative Network for Speech Synthesis, 2018. <a href="https://arxiv.org/pdf/1811.00002.pdf" target="_blank"> [link]</a> </li>
-        </ol>
-    </a>
-
-    <a id="notes_link">
-        <h3>Notes</h3>
-        <ol>
-            <li>First note</li>
-            <li>Second note</li>
-        </ol>
-    </a>
-
-    <a id="links_link">
-        <h3>Related Links</h3>
-        <ol>
-            <li> Understanding Mel Spectrogram, 2020. <a href="https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53" target="_blank"> [link.] </a>  </li>
-            <li> Getting to Know the Mel Spectrogram, 2019. <a href="https://towardsdatascience.com/getting-to-know-the-mel-spectrogram-31bca3e2d9d0" target="_blank"> [link.] </a>  </li>
-            <li> Tacotron 2 and WaveGlow for PyTorch <a href="https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/SpeechSynthesis/Tacotron2" target="_blank"> [link.] </a> </li>
-        </ol>
-    </a>
 
 
+  <h2>Relevent Papers </h2>
+
+  <button class="button button1">Fast Speech: Fast, Robust and Controllable Text to Speech, 2019</button> <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/05/1905.09263.pdf" target="_blank"> <button class="button button2"> PDF </button></a> 
+  <button class="button button1">Tacotron: Towards End-to-End Speech Synthesis, 2017</button> <a href="https://arxiv.org/pdf/1703.10135.pdf" target="_blank"><button class="button button2"> PDF </button></a>
+  <button class="button button1">Natural TTS Synthesis by Conditioning Wavenet on Mel Spectrogram Predictions, 2018</button> <a href="https://arxiv.org/pdf/1712.05884.pdf" target="_blank"> <button class="button button2"> PDF </button></a> 
+  <button class="button button1">WaveGlow: A Flow Based Generative Network for Speech Synthesis, 2018</button> <a href="https://arxiv.org/pdf/1811.00002.pdf" target="_blank"> <button class="button button2"> PDF </button></a>
+        
+  <h2>Related Links</h2>
+            
+  <button class="button button3">Understanding Mel Spectrogram, 2020</button> <a href="https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53" target="_blank"> <button class="button button4"> PDF </button> </a>
+  <button class="button button3">Getting to Know the Mel Spectrogram, 2019</button> <a href="https://towardsdatascience.com/getting-to-know-the-mel-spectrogram-31bca3e2d9d0" target="_blank"> <button class="button button4"> PDF </button></a>  
+  <button class="button button3">Tacotron 2 and WaveGlow for PyTorch</button> <a href="https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/SpeechSynthesis/Tacotron2" target="_blank"> <button class="button button4"> PDF </button> </a>
+  
 </body>
 </html>
